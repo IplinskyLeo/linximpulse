@@ -1,3 +1,10 @@
 .header{
-    background-color: red;
+    background: #707070 0% 0% no-repeat padding-box;
+    
+}
+
+.btn a {
+    display: flex;
+    color: black;
+    text-decoration: none;
 }
