@@ -1,6 +1,25 @@
-.line {
-    width: 500px;
+.todos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.div1 {
+    width: 33%;
     height: 2px;
     background-color: #707070;
-    opacity: 0.5;
+}
+
+.div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.div3 {
+    width: 33%;
+    height: 2px;
+    background-color: #707070;
 }
