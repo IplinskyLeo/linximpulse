@@ -17,7 +17,7 @@ export const ShareForm = () => {
                     </label>
                 </div>
 
-                <input type="submit" value="Enviar agora"/>
+                <input type="submit" value="Enviar agora"  className='submit'/>
 
             </form>
         </section>
