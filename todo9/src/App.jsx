@@ -66,7 +66,7 @@ function App() {
 
 
 
-      <div className='styles.card'>
+      <div className='card'>
       {product.map(produto => {
         return (
 
@@ -79,14 +79,14 @@ function App() {
           specialOffer={`Por: R$${produto.price},00`}
           installments={`ou ${produto.installments.count}x de R$${produto.installments.value}0`} 
           /> 
-          
+
         )
       })}
       </div>  
 
-      <div className='styles.moreContent'>
+      <div className='moreContent'>
 
-      <button className='styles.buttonProduct'
+      <button className='buttonProduct'
         onClick={getApi}>Ainda mais produtos!</button>
 
       </div>

@@ -7,13 +7,13 @@ import './index.css';
 export function Items(props) {
     return (
         
-        <div className='container'>
+        <div className='mainContainer'>
 
-            <div className='imagem'>
+            <div className='imageContainer'>
                 <img src={props.image}></img>
             </div>
 
-                    <div className='description'>
+                    <div className='infoContainer'>
                         <p>{props.name}</p>
                         <p>{props.description}</p>
                         <p>{props.oldPrice}</p>
@@ -23,7 +23,7 @@ export function Items(props) {
                         <p>{props.installments}</p>
                     </div>  
 
-                <button>Comprar</button>
+                <button className='buttonProduct'>Comprar</button>
                 
         </div>
         

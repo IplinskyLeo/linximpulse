@@ -1,32 +1,28 @@
-.container{
+.mainContainer{
     display: flex;
+    width: 60%;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    width: 60%;
     margin: 50px;
-    background-color: red;
+}
+.imageContainer{
+    height: 220px;
+    width: 250px;
+    border: 1px solid #888888;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    cursor: pointer;
 }
 
-    .imagem{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        width: 100%;
-        margin-bottom: 2px;
-        cursor: pointer;
-    }
-
-
-
-.description{ 
+.infoContainer{ 
     text-decoration: none;
     color:  #888888;
     background-color:white;
     font-size:15px;
+    
 }
-.description p, strong{ 
+.infoContainer p, strong{ 
  padding: 5px;
 }
 
@@ -34,6 +30,7 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: auto;
+    /* background-color: rgb(37, 0, 250); */
 }
 .buttonProduct{ 
     width: 200px;
@@ -52,8 +49,6 @@
    align-items: center;
    flex-direction: column;
 }
-
-
 
 /*  celular
 
