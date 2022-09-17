@@ -8,7 +8,7 @@ import { Footer } from './components/Footer';
 import { Items } from './components/Items';
 import { Form } from './components/Form';
 
-import './components/api/api.js';
+import './api/api.js';
 import './global.css';
 
 
