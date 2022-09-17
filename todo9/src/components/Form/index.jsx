@@ -13,14 +13,18 @@ export function Form(){
                 <label htmlFor="cpf">CPF:</label>
                 <input type="text" name="" id="" />
                 
-            <div>
-                <input type="radio" name="" id="" />
-                <label htmlFor="masculino">Masculino</label>
+            <div className='radio'>
+                <div className='radio1'>
+                    <input type="radio" name="" id="" />
+                    <label htmlFor="masculino">Masculino</label>
+                </div>
 
-                <input type="radio" name="" id="" />
-                <label htmlFor="feminino">Feminino</label>
+                <div className='radio2'>
+                    <input type="radio" name="" id="" />
+                    <label htmlFor="feminino">Feminino</label>
+                </div>
             </div>
-                <input type="submit" />
+                <input type="submit" className='submit'/>
             </form>
         </div>
     );

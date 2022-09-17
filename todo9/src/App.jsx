@@ -19,10 +19,19 @@ function App() {
      
      <Header />
 
-      <div>
-        <TextForm />
-        <Form />
-      </div>
+      <main>
+
+      <section className='firstSection'>
+
+        <div className='TextForm'>
+          <TextForm className="TextForm"/>
+        </div>
+
+        <div className='Form'>
+          <Form className="Form"/>
+        </div>
+
+      </section>
 
       <Divider text="Sua seleção especial" />
 
@@ -31,6 +40,8 @@ function App() {
 
       <Divider text="Compartilhe a novidade" />
       <ShareForm />
+
+      </main>
       <Footer />
 
     </div>

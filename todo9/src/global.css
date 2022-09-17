@@ -5,3 +5,21 @@
     
     font-family: Helvetica ;
 }
+
+main{
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 20px;
+}
+
+.firstSection{
+    display: flex;
+
+}
+.TextForm{
+    width: 80%;
+}
+.Form{
+    width: 80%;
+}
+
