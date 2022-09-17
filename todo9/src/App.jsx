@@ -12,14 +12,6 @@ import { Form } from './components/Form';
 import './global.css';
 import { useEffect, useState } from 'react'
 
-
-
-
-
-
-
-
-
 function App() {
 
   const [product, setProduct] = useState([])
@@ -32,26 +24,19 @@ function App() {
       setProduct([...product, ...res.products]);
       console.log(res)
   };
-  
+
   useEffect(() => {
     getApi();
   }, []);
   
-  
-
-
-
-
 
   return (
     <div className="App">
      
      <Header />
-
       <main>
 
       <section className='firstSection'>
-
         <div className='TextForm'>
           <TextForm className="TextForm"/>
         </div>
@@ -59,17 +44,13 @@ function App() {
         <div className='Form'>
           <Form className="Form"/>
         </div>
-
       </section>
 
       <Divider text="Sua seleção especial" />
 
-
-
       <div className='card'>
       {product.map(produto => {
         return (
-
           <Items
           key={produto.id}
           image={produto.image}
@@ -79,24 +60,17 @@ function App() {
           specialOffer={`Por: R$${produto.price},00`}
           installments={`ou ${produto.installments.count}x de R$${produto.installments.value}0`} 
           /> 
-
-        )
-      })}
+        )})}
       </div>  
 
       <div className='moreContent'>
-
-      <button className='buttonProduct'
-        onClick={getApi}>Ainda mais produtos!</button>
-
+      <button className='buttonProduct' onClick={getApi}>Ainda mais produtos!</button>
       </div>
 
-
-
-      <Divider text="Compartilhe a novidade" />
-      <ShareForm />
-
+        <Divider text="Compartilhe a novidade" />
+        <ShareForm />
       </main>
+
       <Footer />
 
     </div>
