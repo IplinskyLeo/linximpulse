@@ -1,11 +1,9 @@
 
 
-export function Divider({childen}){
+export function Divider({ text}) {
     return (
-        <div>
-            
-            <h2>{childen}</h2>
-            <p>dsd</p>
-        </div>
+      <div >
+        <h3>{text}</h3>
+      </div>
     );
-}
+  }

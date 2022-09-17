@@ -1,13 +1,14 @@
 // import { useState } from 'react'
 
 import {ShareForm} from './components/ShareForm';
+import { Divider } from './components/Divider';
 import {TextForm} from './components/TextForm';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Items } from './components/Items';
 import { Form } from './components/Form';
-import { Divider } from './components/Divider';
 
+import './components/api/api.js';
 import './global.css';
 
 
@@ -23,9 +24,14 @@ function App() {
         <Form />
       </div>
 
-      <Divider>Banana</ Divider>
-      <Divider>Sua seleção especial</ Divider>
-    <h1>ta ok</h1>
+      <Divider text="Sua seleção especial" />
+
+
+
+
+      <Divider text="Compartilhe a novidade" />
+      <ShareForm />
+      <Footer />
 
     </div>
   )
