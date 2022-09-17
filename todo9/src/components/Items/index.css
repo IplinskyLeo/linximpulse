@@ -1,10 +1,10 @@
 .mainContainer{
     display: flex;
-    width: 60%;
+    width: 20%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px;
+    margin: 10px;
 }
 .imageContainer{
     height: 220px;
@@ -20,6 +20,7 @@
     color:  #888888;
     background-color:white;
     font-size:15px;
+    width: 100%;
     
 }
 .infoContainer p, strong{ 
@@ -27,9 +28,15 @@
 }
 
 .card {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* display: grid;
     grid-template-columns: auto auto auto auto;
-    padding: auto;
+    padding: 0;
+        background-color: red; */
     /* background-color: rgb(37, 0, 250); */
 }
 .buttonProduct{ 
