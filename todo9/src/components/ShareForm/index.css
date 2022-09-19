@@ -5,9 +5,39 @@ section{
     align-items: center;
 }
 
-.submit{
-    width: 60%;
+input.submit{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 300px;
+    background-color: white;
+    color:  #707070;
+    border: #888888 solid 1px;
+    border-radius: 4px;
+    margin-top: 40px;
+}
+
+.submit:hover{ 
+    cursor: pointer;
+}
+
+.shareForm{
+    width: 100%;
+}
+
+.labels{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.shareInput{
+    width: 360px;
+}
+.Submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }

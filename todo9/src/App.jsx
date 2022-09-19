@@ -44,9 +44,10 @@ function App() {
         <div className='Form'>
           <Form className="Form"/>
         </div>
-      </section>
 
+      </section>
       <Divider text="Sua seleção especial" />
+
 
       <div className='card'>
       {product.map(produto => {

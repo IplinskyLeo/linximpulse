@@ -5,6 +5,10 @@ form{
     margin: 30px;
 }
 
+label {
+    margin-top: 10px;
+}
+
 input {
     margin-top: 10px;
     padding: 10px;
@@ -12,14 +16,24 @@ input {
 }
 
 .radio{
+    display: flex;
+    flex-direction: row;
     margin: 10px;
     display: flex;
     align-items: center;
-
-
+    gap: 15px;
 }
 
 .submit {
     border-radius: 5px;
     border: 1.5px solid #707070;
+    width: 100%;
 }
+
+/* .radio1{
+    background-color: rgb(92, 35, 35);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} */

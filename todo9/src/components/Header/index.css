@@ -1,3 +1,7 @@
+*{
+    z-index: 10000;
+}
+
 .header{
     background: #707070 0% 0% no-repeat padding-box;
     display: flex;
@@ -32,8 +36,17 @@ header p:nth-child(3){
     color: #707070;
     text-decoration: none;
     background-color: #ffffff;
-    padding: 6px;
+    padding: 11px;
     border-radius: 5px;
     margin: 10px;
 }
 
+.cutt{
+    z-index: 1;
+    margin-top: 150px;
+    position: absolute;
+    padding: 130px;
+    width: 110%;
+    transform: rotate(4deg); 
+    background-color: #707070;
+}

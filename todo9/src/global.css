@@ -14,7 +14,7 @@ main{
 .firstSection{
     display: flex;
     flex-direction: row;
-
+    padding-top: 40px;
 }
 .TextForm{
     width: 80%;
@@ -22,4 +22,3 @@ main{
 .Form{
     width: 80%;
 }
-
