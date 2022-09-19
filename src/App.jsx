@@ -1,5 +1,3 @@
-// import { useState } from 'react'
-
 import {ShareForm} from './components/ShareForm';
 import { Divider } from './components/Divider';
 import {TextForm} from './components/TextForm';
@@ -8,7 +6,6 @@ import { Footer } from './components/Footer';
 import { Items } from './components/Items';
 import { Form } from './components/Form';
 
-// import './api/api.js';
 import './global.css';
 import { useEffect, useState } from 'react'
 
@@ -21,7 +18,6 @@ function App() {
       let res = await fetch(`https://frontend-intern-challenge-api.iurykrieger.vercel.app/products?page=${page}`).then((data) => data.json());
       setPage(page + 1);
       setProduct([...product, ...res.products]);
-      console.log(res)
   };
 
   useEffect(() => {
