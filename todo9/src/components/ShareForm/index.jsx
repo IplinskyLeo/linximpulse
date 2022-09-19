@@ -3,17 +3,17 @@ import './index.css';
 export const ShareForm = () => {
     return (
         <section>
-            <p> Quer que seus amigos também ganhem a lista personalidazada deles: Preencha agora!</p>
+            <p> Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
 
             <form className='shareForm'>
                 <div className='labels'>
-                    <label>
+                    <label className='labelOne'>
                         Nome do seu amigo:
-                        <input type="text" name="nome" className='shareInput'/>
+                        <input type="text" name="nome" className='shareInput' required/>
                     </label>
-                    <label>
+                    <label className='labelTwo'>
                         E-mail:
-                        <input type="email" name="email" className='shareInput'/>
+                        <input type="email" name="email" className='shareInput' required/>
                     </label>
                 </div>
 

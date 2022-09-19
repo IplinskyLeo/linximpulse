@@ -41,3 +41,8 @@ input.submit{
     align-items: center;
     width: 100%;
 }
+
+.labelOne, .labelTwo{
+    display: flex;
+    flex-direction: column;
+}

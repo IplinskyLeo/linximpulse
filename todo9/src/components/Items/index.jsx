@@ -7,9 +7,9 @@ import './index.css';
 export function Items(props) {
     return (
         
-        <div className='mainContainer'>
+        <div className='container'>
 
-            <div className='imageContainer'>
+            <div className='productInfo'>
                 <img src={props.image}></img>
             </div>
 

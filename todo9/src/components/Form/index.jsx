@@ -3,15 +3,15 @@ import './index.css';
 export function Form(){
     return (
         <div>
-            <form>
+            <form className='firstForm'>
                 <label htmlFor="nome">Seu nome:</label>
-                <input type="text" name="" id="" />
+                <input type="text" name="" id="" required/>
 
                 <label htmlFor="email">E-mail:</label>
-                <input type="text" name="" id="" />
+                <input type="email" name="email"  required/>
 
                 <label htmlFor="cpf">CPF:</label>
-                <input type="text" name="" id="" />
+                <input type="text" name="" id="" required/>
                 
             <div className='radio'>
                 <div className='radio1'>
@@ -24,7 +24,7 @@ export function Form(){
                     <label htmlFor="feminino">Feminino</label>
                 </div>
             </div>
-                <input type="submit" className='submit'/>
+                <input type="submit" className='formSubmit'/>
             </form>
         </div>
     );

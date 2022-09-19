@@ -1,4 +1,4 @@
-.mainContainer{
+.container{
     display: flex;
     width: 20%;
     flex-direction: column;
@@ -6,7 +6,7 @@
     align-items: center;
     margin: 10px;
 }
-.imageContainer{
+.product{
     height: 220px;
     width: 250px;
     border: 1px solid #888888;
@@ -15,7 +15,7 @@
     cursor: pointer;
 }
 
-.infoContainer{ 
+.productInfo{ 
     text-decoration: none;
     color:  #888888;
     background-color:white;
@@ -23,20 +23,15 @@
     width: 100%;
     
 }
-.infoContainer p, strong{ 
+.productInfo p, strong{ 
  padding: 5px;
 }
 
-.card {
+.allProducts {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* display: grid;
-    grid-template-columns: auto auto auto auto;
-    padding: 0;
-        background-color: red; */
-    /* background-color: rgb(37, 0, 250); */
 }
 .buttonProduct{ 
     width: 200px;

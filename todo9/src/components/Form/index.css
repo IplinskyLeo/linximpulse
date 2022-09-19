@@ -1,7 +1,6 @@
-form{
+.firstForm{
     display:flex;
     flex-direction: column;
-
     margin: 30px;
 }
 
@@ -24,16 +23,17 @@ input {
     gap: 15px;
 }
 
-.submit {
+.formSubmit {
     border-radius: 5px;
     border: 1.5px solid #707070;
     width: 100%;
 }
 
-/* .radio1{
-    background-color: rgb(92, 35, 35);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-} */
+.formSubmit:hover {
+cursor: pointer;
+}
+
+
+.radio1:hover{
+    cursor: pointer;
+}
